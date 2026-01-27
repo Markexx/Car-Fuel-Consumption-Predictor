@@ -1,0 +1,13 @@
+name: auto-mpg-env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.8
+  - numpy=1.21.2
+  - scikit-learn=1.0.2
+  - joblib=1.2.0
+  - pip=21.2.4
+  - pip:
+    - azureml-core
+    - azureml-defaults
