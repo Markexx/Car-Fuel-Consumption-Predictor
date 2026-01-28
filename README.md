@@ -120,7 +120,7 @@ The trained model is exposed via a **Flask REST API**.
 
 API runs on port 5001 with CORS enabled.
 
-##🧪 System Testing
+## 🧪 System Testing
 | Vehicle Type | HP  | Weight (lbs) | Cylinders | Predicted MPG |
 | ------------ | --- | ------------ | --------- | ------------- |
 | Economy Car  | 85  | 2500         | 4         | 26.1          |
@@ -129,6 +129,8 @@ API runs on port 5001 with CORS enabled.
 | Sports Car   | 300 | 3500         | 8         | 15.2          |
 
 ## 📁 Project Structure
+
+```text
 ├── venv/
 ├── train.py
 ├── app.py
@@ -138,8 +140,8 @@ API runs on port 5001 with CORS enabled.
 ├── score.py
 ├── config.json
 ├── auto-mpg.csv
-├── train.py
 ├── requirements.txt
 ├── best_auto_mpg_model.pkl
 └── README.md
+
 
